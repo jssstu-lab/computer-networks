@@ -2,7 +2,7 @@
 // 5th Sem 2020-21
 // https://github.com/jssstu-lab/computer-networks
 
-// Write a program for error detecting code using CRC-CCITT (16- bits).
+// Java program for error detecting code using CRC-CCITT (16- bits).
 
 import java.util.Scanner;
 

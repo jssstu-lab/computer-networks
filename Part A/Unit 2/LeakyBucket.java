@@ -2,7 +2,7 @@
 // 5th Sem 2020-21
 // https://github.com/jssstu-lab/computer-networks
 
-// Write a program for congestion control using leaky bucket algorithm.
+// Java program for congestion control using leaky bucket algorithm.
 
 import java.util.Scanner;
 

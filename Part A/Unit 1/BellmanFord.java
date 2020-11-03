@@ -2,7 +2,7 @@
 // 5th Sem 2020-21
 // https://github.com/jssstu-lab/computer-networks
 
-// Write a program to find the shortest path between vertices using bellman-ford algorithm.
+// Java program to find the shortest path between vertices using bellman-ford algorithm.
 
 import java.util.*;
 
