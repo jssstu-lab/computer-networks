@@ -23,3 +23,26 @@
 ```
 
 ## 3. Using TCP/IP sockets, write a client – server program to make the client send the file name and to make the server send back the contents of the requested file if present.
+
+Client Side:
+
+```
+1. Start.
+2. Create a socket using socket() system call.
+3. Connect the socket to the address of the server using connect() system call.
+4. Send the filename of required file using send() system call.
+5. Read the contents of the file sent by server by recv() system call.
+6. Stop.
+```
+
+Server Side:
+
+```
+1. Start.
+2. Create a socket using socket() system call.
+3. Bind the socket to an address using bind() system call.
+4. Listen to the connection using listen() system call.
+5. Accept connection using accept()
+6. Receive filename and transfer contents of file with client.
+7. Stop.
+```
